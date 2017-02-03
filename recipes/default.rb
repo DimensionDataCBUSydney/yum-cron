@@ -17,6 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+package 'yum'
 package 'yum-cron'
 
 %w(daily hourly).each do |t|
